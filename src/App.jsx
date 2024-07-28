@@ -6,7 +6,7 @@ import NameState from './contextAPI/NameState'
 import Navbar from './components/Navbar.jsx'
 import Home from './components/Home.jsx'
 import About from './components/About.jsx'
-import Section from './components/Section.jsx'
+
 
 function App() {
   const count = useSelector(state => state.counter.value)
@@ -30,7 +30,7 @@ function App() {
         <div>{count}</div><br />
         <button onClick={() => dispatch(increment())}>+</button><br />
         <button onClick={() => dispatch(multiply(4))}>*</button><br />
-        <Section/>
+        
       </NameState>
       {/* <Navbar /> */}
     </>
