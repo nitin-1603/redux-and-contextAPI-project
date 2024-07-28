@@ -30,7 +30,7 @@ function App() {
         <div>{count}</div><br />
         <button onClick={() => dispatch(increment())}>+</button><br />
         <button onClick={() => dispatch(multiply(4))}>*</button><br />
-        
+        <section/>
       </NameState>
       {/* <Navbar /> */}
     </>
